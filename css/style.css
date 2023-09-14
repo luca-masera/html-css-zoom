@@ -8,13 +8,25 @@
 }
 
 .container{
-    position: relative;
     background-color: black;
-    height: 100vh;
     width: 100%;
     padding: 80px;
 }
 
+
+header{
+    height: 90px;
+    background-color: black;
+    position: relative;
+}
+main{
+    height: calc( 100vh - 180px );
+    overflow-y: auto;
+}
+footer{
+    background-color: gray;
+    height: 90px;
+}
 
 .d-flex{
     display: flex;
@@ -26,8 +38,41 @@ img{
     padding-bottom: 10px;
 }
 
-footer{
-    background-color: gray;
-    height: 90px;
+
+.flex{
     display: flex;
+    justify-content: space-between;
+    
+}
+ul{
+    list-style: none;
+}
+span{
+    color: white;
+}
+.header-position{
+    position: absolute;
+    top: 0;
+    right: 45px;
+    background-color: grey;
+    border-radius: 3px;
+    padding: 3px;
+}
+.header-position1{
+    position: absolute;
+    top: 0;
+    right: 7px;
+    background-color: grey;
+    border-radius: 3px;
+    padding: 3px;
+}
+.img-position{
+    position: relative;
+}
+.main-position{
+    position: absolute;
+    bottom: 14px;
+    left: 0px;
+    background-color: grey;
+    border-radius: 3px;
 }

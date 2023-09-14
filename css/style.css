@@ -22,10 +22,10 @@ header{
 main{
     height: calc( 100vh - 180px );
     overflow-y: auto;
+    background-color: black;
 }
 footer{
     background-color: gray;
-    height: 90px;
 }
 
 .d-flex{
@@ -42,6 +42,7 @@ img{
 .flex{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
 ul{
@@ -75,4 +76,10 @@ span{
     left: 0px;
     background-color: grey;
     border-radius: 3px;
+}
+.container-footer{
+    height: 90px;
+}
+.carater{
+    font-size: xx-large;
 }
